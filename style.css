@@ -91,10 +91,13 @@ body{
 }
 .fourth .pink{
     color: #ff0050;
+    padding: 10px;
 
 }
 .fourth h4{
     font-size: 20px;
+    padding: 2px;
+    gap: 10px;
 }
 .fourth .pink2{
     color: #f7044f;
