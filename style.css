@@ -104,3 +104,67 @@ body{
     font-size: 30px;
     font-weight: 900;
 }
+
+@media (max-width:991px){
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.first{
+    display: flex;
+}
+
+
+}
+@media (max-width:768px){
+    .hero{
+        width: 100vw;
+        /* height: 100vh; */
+        padding: 25px;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .first{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 5px;
+        writing-mode: horizontal-tb;
+    }
+    .second{
+        height: 30%;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        
+    }
+    .second img{
+        height: 90%;
+        object-fit: cover;
+        /* flex-shrink: 0; */
+        object-position: top;
+    }
+    .third{
+        writing-mode: horizontal-tb;
+    }
+
+}
+@media (max-width:450px){
+
+}
